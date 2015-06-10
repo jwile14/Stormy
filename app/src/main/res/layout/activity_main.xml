@@ -125,11 +125,13 @@
         android:text="Getting current weather..."
         android:id="@+id/summaryLabel"
         android:layout_below="@+id/linearLayout"
+        android:layout_above="@+id/buttonLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="15dp"
         android:textColor="@android:color/white"
         android:textSize="18dp"
-        android:gravity="center_horizontal"/>
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="0dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -150,6 +152,7 @@
 
     <LinearLayout
         android:orientation="horizontal"
+        android:id="@+id/buttonLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
